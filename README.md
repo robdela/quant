@@ -47,7 +47,7 @@ Active trading strategy layer.
 - **Input your own trading strategy**: System has been built for short term trading
 - **Risk**: Position-level sizing, portfolio circuit breakers
 
-Here's an example of the performance using one of my proprietary strategies (Out of sample from 2025-06-01 YYYY-MM-DD)
+Here's an example of the performance using one of my proprietary strategies and 0.2% of risk per trade (Out of sample from 2025-06-01 YYYY-MM-DD)
 <img width="1400" height="700" alt="Figure_1" src="https://github.com/user-attachments/assets/0fbfce01-6799-4ae8-a063-ca1260a3bae7" />
 
 
