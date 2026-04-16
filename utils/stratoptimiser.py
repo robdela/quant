@@ -712,7 +712,7 @@ if __name__ == '__main__':
     from strategies.genesis_v1 import genesis_v1
 
     opt = StrategyOptimiser()
-
+ 
     results = opt.optimise(
         symbols=['SUI/USDT', 'ETH/USDT', 'XRP/USDT', 'DOT/USDT', 'ZEC/USDT', 'LTC/USDT', 'ADA/USDT', 'UNI/USDT', 'LINK/USDT', 'AVAX/USDT'],
         strategy_func=lowvol_strategy,
