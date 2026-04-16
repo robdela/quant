@@ -3,6 +3,7 @@
 
 Singularity is a modular, multi-subsystem trading system designed for systematic operation across centralized cryptocurrency exchanges 
 
+For the strategies, I included a simple trend following strategy called "Quark" based on three indicators
 ---
 
 ## Architecture
@@ -46,6 +47,9 @@ Active trading strategy layer.
 - **Input your own trading strategy**: System has been built for short term trading
 - **Risk**: Position-level sizing, portfolio circuit breakers
 
+Here's an example of the performance using one of my proprietary strategies (Out of sample from 2025-06-01 YYYY-MM-DD)
+<img width="1400" height="700" alt="Figure_1" src="https://github.com/user-attachments/assets/0fbfce01-6799-4ae8-a063-ca1260a3bae7" />
+
 
 ### Saps
 Long/Short strategy based system
@@ -68,6 +72,9 @@ Singularity is a meta-portfolio system that combines three sub-systems (EventHor
 ### Current logic
 RISK ON : EventHorizon = 64%, GravityArena = 16%, Lagrange = 20%
 RISK OFF : EventHorizon = 0%, GravityArena = 0%, Lagrange = 20%
+
+Of course the allocation logic can be changed to your likings and different systems, this is just a template to show what can be done
+
 
 
 
